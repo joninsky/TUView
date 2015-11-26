@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TUView_Example', :exclusive => true do
+  pod "TUView", :path => "../"
+end
+
+target 'TUView_Tests', :exclusive => true do
+  pod "TUView", :path => "../"
+
+  
+end
