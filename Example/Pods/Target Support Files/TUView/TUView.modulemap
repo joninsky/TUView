@@ -1,0 +1,6 @@
+framework module TUView {
+  umbrella header "TUView-umbrella.h"
+
+  export *
+  module * { export * }
+}

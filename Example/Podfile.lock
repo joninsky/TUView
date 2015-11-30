@@ -1,0 +1,14 @@
+PODS:
+  - TUView (0.1.0)
+
+DEPENDENCIES:
+  - TUView (from `../`)
+
+EXTERNAL SOURCES:
+  TUView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TUView: 920f8e2c1c523802b07ad95d931657461c31eb66
+
+COCOAPODS: 0.39.0

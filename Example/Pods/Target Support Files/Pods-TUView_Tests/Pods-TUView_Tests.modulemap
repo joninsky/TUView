@@ -1,0 +1,6 @@
+framework module Pods_TUView_Tests {
+  umbrella header "Pods-TUView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

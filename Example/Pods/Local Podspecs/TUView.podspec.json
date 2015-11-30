@@ -1,0 +1,25 @@
+{
+  "name": "TUView",
+  "version": "0.1.0",
+  "summary": "A short description of TUView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TUView",
+  "license": "MIT",
+  "authors": {
+    "Jon Vogel": "joninsky@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TUView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TUView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
