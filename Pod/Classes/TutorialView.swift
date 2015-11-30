@@ -9,7 +9,7 @@
 import UIKit
 
 
-class TutorialView: UICollectionView, UICollectionViewDataSource, UICollectionViewDelegate {
+public class TutorialView: UICollectionView, UICollectionViewDataSource, UICollectionViewDelegate {
     
     //Properties
     var layout: UICollectionViewFlowLayout?

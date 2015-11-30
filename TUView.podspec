@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TUView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "TUView lets you instantiate a UIView with an array of image assest that serve as a tutorial for your app."
 
 # This description is used to generate tags and improve search results.

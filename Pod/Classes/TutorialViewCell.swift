@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TutorialViewCell: UICollectionViewCell {
+public class TutorialViewCell: UICollectionViewCell {
     
     
     
