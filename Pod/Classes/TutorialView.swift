@@ -71,7 +71,7 @@ public class TutorialView: UICollectionView, UICollectionViewDataSource, UIColle
         
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -106,7 +106,7 @@ public class TutorialView: UICollectionView, UICollectionViewDataSource, UIColle
 
     
     //Collection View Functions
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         
         return self.arrayOfImages.count
@@ -131,7 +131,7 @@ public class TutorialView: UICollectionView, UICollectionViewDataSource, UIColle
     }
     
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    public func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         
         let Cell = self.dequeueReusableCellWithReuseIdentifier("tutorialCell", forIndexPath: indexPath) as! TutorialViewCell
@@ -152,7 +152,7 @@ public class TutorialView: UICollectionView, UICollectionViewDataSource, UIColle
         return 0
     }
 
-    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+    public func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
         
         
         let visibleRect = CGRect(origin: self.contentOffset, size: self.bounds.size)
