@@ -29,7 +29,7 @@ public class TutorialView: UICollectionView, UICollectionViewDataSource, UIColle
     var timerToRemoveLabel: NSTimer?
     
     //LifeCycle Functions
-    init() {
+    public init() {
         //Instatniate the collection view flow layout
         self.layout = UICollectionViewFlowLayout()
         //Call super initalizer with a frame that is 0,0,0,0 and the flow layout
@@ -76,7 +76,7 @@ public class TutorialView: UICollectionView, UICollectionViewDataSource, UIColle
     }
     
     //Public functions
-    func addTutorial(viewToCover view: UIView, arrayOfImages: [UIImage]) {
+    public func addTutorial(viewToCover view: UIView, arrayOfImages: [UIImage]) {
         
         self.arrayOfImages = arrayOfImages
         
@@ -113,7 +113,7 @@ public class TutorialView: UICollectionView, UICollectionViewDataSource, UIColle
         
     }
     
-    func dismiss(gesture: UITapGestureRecognizer) {
+    public func dismiss(gesture: UITapGestureRecognizer) {
         if self.superview != nil {
             self.viewToCover = nil
             self.removeFromSuperview()
