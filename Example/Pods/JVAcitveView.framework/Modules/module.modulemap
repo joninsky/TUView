@@ -1,0 +1,10 @@
+framework module JVAcitveView {
+  umbrella header "JVAcitveView.h"
+
+  export *
+  module * { export * }
+}
+
+module JVAcitveView.Swift {
+    header "JVAcitveView-Swift.h"
+}

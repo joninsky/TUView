@@ -17,6 +17,7 @@
 		9BBFF63C40B904D797E2F39414C7DAFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		9FD938C81C0CD7DB00CFC13F /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD938C61C0CD7DB00CFC13F /* TutorialView.swift */; };
 		9FD938C91C0CD7DB00CFC13F /* TutorialViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD938C71C0CD7DB00CFC13F /* TutorialViewCell.swift */; };
+		9FF171E61C165ABA00C49633 /* JVAcitveView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF171E51C165ABA00C49633 /* JVAcitveView.framework */; };
 		BE98F417AEB6A220FB2A65A454487596 /* Pods-TUView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC29B31EA2781A7B0FCEDA0A07DD9517 /* Pods-TUView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E22599A886D905AB07043BBF1C932B22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		97D4390F28D3870638CF8C07DB9C350D /* Pods-TUView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TUView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9FD938C61C0CD7DB00CFC13F /* TutorialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		9FD938C71C0CD7DB00CFC13F /* TutorialViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewCell.swift; sourceTree = "<group>"; };
+		9FF171E51C165ABA00C49633 /* JVAcitveView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JVAcitveView.framework; sourceTree = "<group>"; };
 		A3C5F7BF4323E65180180A46AD8E23AF /* Pods_TUView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TUView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A554642245052DED86B5E5CB646D62C8 /* Pods-TUView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TUView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AFD19177F3F1C60086A6ACF855FD6152 /* TUView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TUView.modulemap; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EF337B8934F4735218207B576E6B059 /* Foundation.framework in Frameworks */,
+				9FF171E61C165ABA00C49633 /* JVAcitveView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +190,7 @@
 		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				9FF171E51C165ABA00C49633 /* JVAcitveView.framework */,
 				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
 			name = iOS;
@@ -611,6 +615,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Target Support Files/Pods-TUView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -700,6 +708,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Target Support Files/Pods-TUView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
